@@ -55,7 +55,8 @@ button {
     background-color: #3882f6;
     border-radius: 6px;
     border-color: #3882f6;
-    border-style: none;
+    border-style: solid;
+    border-width: 3px;
     padding: 6px 20px;
     font-weight: bold;
     font-size: 16px;
@@ -118,7 +119,7 @@ button {
 .quote {
     background-color: #e5e7eb;
     margin: 0 auto;
-    padding: 100px 200px;
+    padding: 100px 400px;
 }
 
 .quote-text {
@@ -134,5 +135,37 @@ button {
     text-align: end;
     font-size: 20px;
     font-weight: bold;
-    padding-right: 40px;
+    padding-right: 80px;
+}
+
+/* SING UP BOX */
+
+.sign-up {
+    padding: 100px 200px;
+}
+
+.sign-up-block {
+    background-color: #3882f6;
+    padding: 50px 150px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-wrapper>h3 {
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.sign-up-wrapper>p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.sign-up-block>button {
+    border-color: #e5e7eb;
 }
