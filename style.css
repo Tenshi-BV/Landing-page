@@ -117,4 +117,22 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    margin: 0 auto;
+    padding: 100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0px;
+}
+
+.quote-credit {
+    color: #1F2937;
+    margin: 0;
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
 }
